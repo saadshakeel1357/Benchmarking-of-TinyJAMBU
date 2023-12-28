@@ -1,0 +1,1 @@
+TimeoutError: Could not automatically find serial port for the `Arduino Due (USB Native Port)` board based on the declared HWIDs=['2341:003E', '2A03:003E']

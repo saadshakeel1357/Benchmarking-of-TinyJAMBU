@@ -1,0 +1,85 @@
+src\iut\encrypt.c: In function 'crypto_aead_encrypt':
+src\iut\encrypt.c:114:29: warning: passing argument 3 of 'initialization' from incompatible pointer type [-Wincompatible-pointer-types]
+     initialization(k, npub, state);
+                             ^~~~~
+src\iut\encrypt.c:60:6: note: expected 'uint32_t * {aka long unsigned int *}' but argument is of type 'unsigned int *'
+ void initialization(const unsigned char *key, const unsigned char *iv, uint32_t *state) {
+      ^~~~~~~~~~~~~~
+src\iut\encrypt.c:117:30: warning: passing argument 4 of 'process_ad' from incompatible pointer type [-Wincompatible-pointer-types]
+     process_ad(k, ad, adlen, state);
+                              ^~~~~
+src\iut\encrypt.c:77:6: note: expected 'uint32_t * {aka long unsigned int *}' but argument is of type 'unsigned int *'
+ void process_ad(const unsigned char *k, const unsigned char *ad, uint64_t adlen, uint32_t *state) {
+      ^~~~~~~~~~
+src\iut\encrypt.c:122:22: warning: passing argument 1 of 'state_update' from incompatible pointer type [-Wincompatible-pointer-types]
+         state_update(state, k, NROUND2);
+                      ^~~~~
+src\iut\encrypt.c:25:6: note: expected 'uint32_t * {aka long unsigned int *}' but argument is of type 'unsigned int *'
+ void state_update(uint32_t *state, const unsigned char *key, uint32_t number_of_steps) {
+      ^~~~~~~~~~~~
+src\iut\encrypt.c:130:22: warning: passing argument 1 of 'state_update' from incompatible pointer type [-Wincompatible-pointer-types]
+         state_update(state, k, NROUND2);
+                      ^~~~~
+src\iut\encrypt.c:25:6: note: expected 'uint32_t * {aka long unsigned int *}' but argument is of type 'unsigned int *'
+ void state_update(uint32_t *state, const unsigned char *key, uint32_t number_of_steps) {
+      ^~~~~~~~~~~~
+src\iut\encrypt.c:141:18: warning: passing argument 1 of 'state_update' from incompatible pointer type [-Wincompatible-pointer-types]
+     state_update(state, k, NROUND2);
+                  ^~~~~
+src\iut\encrypt.c:25:6: note: expected 'uint32_t * {aka long unsigned int *}' but argument is of type 'unsigned int *'
+ void state_update(uint32_t *state, const unsigned char *key, uint32_t number_of_steps) {
+      ^~~~~~~~~~~~
+src\iut\encrypt.c:145:18: warning: passing argument 1 of 'state_update' from incompatible pointer type [-Wincompatible-pointer-types]
+     state_update(state, k, NROUND1);
+                  ^~~~~
+src\iut\encrypt.c:25:6: note: expected 'uint32_t * {aka long unsigned int *}' but argument is of type 'unsigned int *'
+ void state_update(uint32_t *state, const unsigned char *key, uint32_t number_of_steps) {
+      ^~~~~~~~~~~~
+src\iut\encrypt.c: In function 'crypto_aead_decrypt':
+src\iut\encrypt.c:173:29: warning: passing argument 3 of 'initialization' from incompatible pointer type [-Wincompatible-pointer-types]
+     initialization(k, npub, state);
+                             ^~~~~
+src\iut\encrypt.c:60:6: note: expected 'uint32_t * {aka long unsigned int *}' but argument is of type 'unsigned int *'
+ void initialization(const unsigned char *key, const unsigned char *iv, uint32_t *state) {
+      ^~~~~~~~~~~~~~
+src\iut\encrypt.c:176:30: warning: passing argument 4 of 'process_ad' from incompatible pointer type [-Wincompatible-pointer-types]
+     process_ad(k, ad, adlen, state);
+                              ^~~~~
+src\iut\encrypt.c:77:6: note: expected 'uint32_t * {aka long unsigned int *}' but argument is of type 'unsigned int *'
+ void process_ad(const unsigned char *k, const unsigned char *ad, uint64_t adlen, uint32_t *state) {
+      ^~~~~~~~~~
+src\iut\encrypt.c:181:22: warning: passing argument 1 of 'state_update' from incompatible pointer type [-Wincompatible-pointer-types]
+         state_update(state, k, NROUND2);
+                      ^~~~~
+src\iut\encrypt.c:25:6: note: expected 'uint32_t * {aka long unsigned int *}' but argument is of type 'unsigned int *'
+ void state_update(uint32_t *state, const unsigned char *key, uint32_t number_of_steps) {
+      ^~~~~~~~~~~~
+src\iut\encrypt.c:189:22: warning: passing argument 1 of 'state_update' from incompatible pointer type [-Wincompatible-pointer-types]
+         state_update(state, k, NROUND2);
+                      ^~~~~
+src\iut\encrypt.c:25:6: note: expected 'uint32_t * {aka long unsigned int *}' but argument is of type 'unsigned int *'
+ void state_update(uint32_t *state, const unsigned char *key, uint32_t number_of_steps) {
+      ^~~~~~~~~~~~
+src\iut\encrypt.c:200:18: warning: passing argument 1 of 'state_update' from incompatible pointer type [-Wincompatible-pointer-types]
+     state_update(state, k, NROUND2);
+                  ^~~~~
+src\iut\encrypt.c:25:6: note: expected 'uint32_t * {aka long unsigned int *}' but argument is of type 'unsigned int *'
+ void state_update(uint32_t *state, const unsigned char *key, uint32_t number_of_steps) {
+      ^~~~~~~~~~~~
+src\iut\encrypt.c:204:18: warning: passing argument 1 of 'state_update' from incompatible pointer type [-Wincompatible-pointer-types]
+     state_update(state, k, NROUND1);
+                  ^~~~~
+src\iut\encrypt.c:25:6: note: expected 'uint32_t * {aka long unsigned int *}' but argument is of type 'unsigned int *'
+ void state_update(uint32_t *state, const unsigned char *key, uint32_t number_of_steps) {
+      ^~~~~~~~~~~~
+src\arduino_main.cpp: In function 'void setup()':
+src\arduino_main.cpp:56:7: warning: unused variable 'ret' [-Wunused-variable]
+   int ret = do_experiments();
+       ^~~
+C:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\cores\arduino\USB\USBCore.cpp: In function 'void USB_ISR()':
+C:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\cores\arduino\USB\USBCore.cpp:688:21: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+                     else
+                     ^~~~
+C:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\cores\arduino\USB\USBCore.cpp:690:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+         UDD_Send8(EP0, 0);
+         ^~~~~~~~~

@@ -1,0 +1,16 @@
+
+submission,variant,implementation,primitive,kat_result,os,o1,o2,o3
+tinyjambu,tinyjambu128v2,opt,aead,kat_err_mismatch,kat_success,kat_err_mismatch,kat_err_mismatch
+tinyjambu,tinyjambu128v2,ref,aead,kat_err_mismatch,kat_err_mismatch,kat_err_mismatch,kat_success
+tinyjambu,tinyjambu128v2,rhys,aead,kat_err_mismatch,kat_err_mismatch,kat_err_mismatch,kat_err_mismatch
+tinyjambu,tinyjambu192v2,opt,aead,kat_err_mismatch,kat_err_mismatch,kat_err_mismatch,kat_err_mismatch
+tinyjambu,tinyjambu192v2,ref,aead,kat_err_mismatch,kat_err_mismatch,kat_err_mismatch,kat_err_mismatch
+tinyjambu,tinyjambu192v2,rhys,aead,kat_err_mismatch,kat_err_mismatch,kat_err_mismatch,kat_success
+tinyjambu,tinyjambu256v2,opt,aead,kat_success,kat_err_mismatch,kat_err_mismatch,kat_err_mismatch
+tinyjambu,tinyjambu256v2,ref,aead,kat_err_mismatch,kat_success,kat_err_mismatch,kat_err_mismatch
+tinyjambu,tinyjambu256v2,rhys,aead,kat_err_mismatch,kat_success,kat_err_mismatch,kat_err_mismatch
+tinyjambu,tinyjambu128v2,opt,aead
+tinyjambu,tinyjambu128v2,ref,aead
+tinyjambu,tinyjambu128v2,rhys,aead
+tinyjambu,tinyjambu192v2,opt,aead
+tinyjambu,tinyjambu192v2,ref,aead

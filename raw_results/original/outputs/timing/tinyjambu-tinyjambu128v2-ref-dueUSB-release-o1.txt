@@ -1,0 +1,330 @@
+--- Terminal on COM5 | 9600 8-N-1
+--- Available filters and text transformations: colorize, debug, default, direct, hexlify, log2file, nocontrol, printable, send_on_enter, time
+--- More details at https://bit.ly/pio-monitor-filters
+--- Quit: Ctrl+C | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H
+␀
+5 seconds
+4 seconds
+3 seconds
+2 seconds
+1 seconds
+# AEAD Benchmarking
+platform = dueUSB
+config = O1
+build time = Dec 23 2023 - 22:03:24
+variant = tinyjambu128v2
+impl = ref
+timer = micros
+
+ad=0 msg=0 enc=83 dec=83 
+ad=0 msg=8 enc=117 dec=117 
+ad=0 msg=16 enc=151 dec=152 
+ad=0 msg=24 enc=185 dec=188 
+ad=0 msg=32 enc=221 dec=221 
+ad=0 msg=40 enc=254 dec=256 
+ad=0 msg=48 enc=289 dec=292 
+ad=0 msg=56 enc=324 dec=326 
+ad=0 msg=64 enc=358 dec=361 
+ad=0 msg=72 enc=392 dec=395 
+ad=0 msg=80 enc=427 dec=429 
+ad=0 msg=88 enc=461 dec=465 
+ad=0 msg=96 enc=495 dec=500 
+ad=0 msg=104 enc=528 dec=536 
+ad=0 msg=112 enc=563 dec=569 
+ad=0 msg=120 enc=598 dec=604 
+ad=0 msg=128 enc=632 dec=639 
+ad=8 msg=0 enc=105 dec=105 
+ad=8 msg=8 enc=139 dec=140 
+ad=8 msg=16 enc=173 dec=174 
+ad=8 msg=24 enc=207 dec=209 
+ad=8 msg=32 enc=241 dec=245 
+ad=8 msg=40 enc=276 dec=279 
+ad=8 msg=48 enc=310 dec=313 
+ad=8 msg=56 enc=345 dec=348 
+ad=8 msg=64 enc=379 dec=383 
+ad=8 msg=72 enc=414 dec=418 
+ad=8 msg=80 enc=449 dec=451 
+ad=8 msg=88 enc=483 dec=485 
+ad=8 msg=96 enc=515 dec=523 
+ad=8 msg=104 enc=551 dec=557 
+ad=8 msg=112 enc=585 dec=591 
+ad=8 msg=120 enc=620 dec=626 
+ad=8 msg=128 enc=654 dec=660 
+ad=16 msg=0 enc=126 dec=127 
+ad=16 msg=8 enc=161 dec=161 
+ad=16 msg=16 enc=195 dec=196 
+ad=16 msg=24 enc=230 dec=230 
+ad=16 msg=32 enc=264 dec=265 
+ad=16 msg=40 enc=298 dec=301 
+ad=16 msg=48 enc=333 dec=335 
+ad=16 msg=56 enc=366 dec=369 
+ad=16 msg=64 enc=401 dec=404 
+ad=16 msg=72 enc=436 dec=439 
+ad=16 msg=80 enc=471 dec=473 
+ad=16 msg=88 enc=504 dec=509 
+ad=16 msg=96 enc=538 dec=544 
+ad=16 msg=104 enc=573 dec=578 
+ad=16 msg=112 enc=607 dec=613 
+ad=16 msg=120 enc=642 dec=649 
+ad=16 msg=128 enc=676 dec=682 
+ad=24 msg=0 enc=148 dec=149 
+ad=24 msg=8 enc=183 dec=183 
+ad=24 msg=16 enc=218 dec=218 
+ad=24 msg=24 enc=251 dec=252 
+ad=24 msg=32 enc=287 dec=288 
+ad=24 msg=40 enc=321 dec=322 
+ad=24 msg=48 enc=355 dec=356 
+ad=24 msg=56 enc=389 dec=391 
+ad=24 msg=64 enc=424 dec=427 
+ad=24 msg=72 enc=458 dec=461 
+ad=24 msg=80 enc=492 dec=496 
+ad=24 msg=88 enc=525 dec=532 
+ad=24 msg=96 enc=561 dec=565 
+ad=24 msg=104 enc=595 dec=600 
+ad=24 msg=112 enc=629 dec=636 
+ad=24 msg=120 enc=665 dec=670 
+ad=24 msg=128 enc=697 dec=704 
+ad=32 msg=0 enc=170 dec=171 
+ad=32 msg=8 enc=204 dec=206 
+ad=32 msg=16 enc=238 dec=240 
+ad=32 msg=24 enc=273 dec=274 
+ad=32 msg=32 enc=307 dec=310 
+ad=32 msg=40 enc=343 dec=343 
+ad=32 msg=48 enc=376 dec=378 
+ad=32 msg=56 enc=411 dec=412 
+ad=32 msg=64 enc=446 dec=448 
+ad=32 msg=72 enc=480 dec=482 
+ad=32 msg=80 enc=512 dec=519 
+ad=32 msg=88 enc=548 dec=553 
+ad=32 msg=96 enc=582 dec=587 
+ad=32 msg=104 enc=617 dec=622 
+ad=32 msg=112 enc=651 dec=657 
+ad=32 msg=120 enc=685 dec=691 
+ad=32 msg=128 enc=721 dec=725 
+ad=40 msg=0 enc=192 dec=192 
+ad=40 msg=8 enc=227 dec=227 
+ad=40 msg=16 enc=261 dec=262 
+ad=40 msg=24 enc=296 dec=297 
+ad=40 msg=32 enc=330 dec=332 
+ad=40 msg=40 enc=363 dec=366 
+ad=40 msg=48 enc=399 dec=400 
+ad=40 msg=56 enc=433 dec=435 
+ad=40 msg=64 enc=468 dec=469 
+ad=40 msg=72 enc=502 dec=506 
+ad=40 msg=80 enc=535 dec=541 
+ad=40 msg=88 enc=570 dec=575 
+ad=40 msg=96 enc=604 dec=609 
+ad=40 msg=104 enc=639 dec=645 
+ad=40 msg=112 enc=674 dec=678 
+ad=40 msg=120 enc=708 dec=713 
+ad=40 msg=128 enc=741 dec=749 
+ad=48 msg=0 enc=215 dec=214 
+ad=48 msg=8 enc=248 dec=249 
+ad=48 msg=16 enc=283 dec=283 
+ad=48 msg=24 enc=317 dec=318 
+ad=48 msg=32 enc=352 dec=353 
+ad=48 msg=40 enc=386 dec=387 
+ad=48 msg=48 enc=420 dec=422 
+ad=48 msg=56 enc=455 dec=458 
+ad=48 msg=64 enc=489 dec=492 
+ad=48 msg=72 enc=522 dec=528 
+ad=48 msg=80 enc=558 dec=561 
+ad=48 msg=88 enc=592 dec=596 
+ad=48 msg=96 enc=626 dec=631 
+ad=48 msg=104 enc=661 dec=666 
+ad=48 msg=112 enc=695 dec=702 
+ad=48 msg=120 enc=729 dec=735 
+ad=48 msg=128 enc=763 dec=771 
+ad=56 msg=0 enc=235 dec=236 
+ad=56 msg=8 enc=270 dec=271 
+ad=56 msg=16 enc=304 dec=306 
+ad=56 msg=24 enc=340 dec=341 
+ad=56 msg=32 enc=373 dec=375 
+ad=56 msg=40 enc=408 dec=409 
+ad=56 msg=48 enc=442 dec=445 
+ad=56 msg=56 enc=478 dec=478 
+ad=56 msg=64 enc=510 dec=515 
+ad=56 msg=72 enc=544 dec=550 
+ad=56 msg=80 enc=580 dec=583 
+ad=56 msg=88 enc=614 dec=618 
+ad=56 msg=96 enc=648 dec=654 
+ad=56 msg=104 enc=683 dec=688 
+ad=56 msg=112 enc=718 dec=722 
+ad=56 msg=120 enc=751 dec=758 
+ad=56 msg=128 enc=786 dec=792 
+ad=64 msg=0 enc=258 dec=258 
+ad=64 msg=8 enc=293 dec=293 
+ad=64 msg=16 enc=327 dec=328 
+ad=64 msg=24 enc=361 dec=362 
+ad=64 msg=32 enc=396 dec=397 
+ad=64 msg=40 enc=430 dec=432 
+ad=64 msg=48 enc=465 dec=466 
+ad=64 msg=56 enc=499 dec=502 
+ad=64 msg=64 enc=532 dec=537 
+ad=64 msg=72 enc=567 dec=571 
+ad=64 msg=80 enc=602 dec=606 
+ad=64 msg=88 enc=636 dec=641 
+ad=64 msg=96 enc=671 dec=675 
+ad=64 msg=104 enc=704 dec=710 
+ad=64 msg=112 enc=739 dec=745 
+ad=64 msg=120 enc=773 dec=780 
+ad=64 msg=128 enc=808 dec=814 
+ad=72 msg=0 enc=280 dec=280 
+ad=72 msg=8 enc=314 dec=315 
+ad=72 msg=16 enc=349 dec=349 
+ad=72 msg=24 enc=383 dec=384 
+ad=72 msg=32 enc=418 dec=418 
+ad=72 msg=40 enc=452 dec=453 
+ad=72 msg=48 enc=486 dec=487 
+ad=72 msg=56 enc=519 dec=525 
+ad=72 msg=64 enc=555 dec=558 
+ad=72 msg=72 enc=589 dec=592 
+ad=72 msg=80 enc=623 dec=627 
+ad=72 msg=88 enc=658 dec=662 
+ad=72 msg=96 enc=692 dec=697 
+ad=72 msg=104 enc=727 dec=731 
+ad=72 msg=112 enc=760 dec=767 
+ad=72 msg=120 enc=796 dec=801 
+ad=72 msg=128 enc=829 dec=836 
+ad=80 msg=0 enc=301 dec=303 
+ad=80 msg=8 enc=336 dec=337 
+ad=80 msg=16 enc=370 dec=371 
+ad=80 msg=24 enc=405 dec=405 
+ad=80 msg=32 enc=440 dec=441 
+ad=80 msg=40 enc=475 dec=474 
+ad=80 msg=48 enc=507 dec=512 
+ad=80 msg=56 enc=541 dec=546 
+ad=80 msg=64 enc=576 dec=580 
+ad=80 msg=72 enc=611 dec=614 
+ad=80 msg=80 enc=645 dec=650 
+ad=80 msg=88 enc=680 dec=684 
+ad=80 msg=96 enc=715 dec=719 
+ad=80 msg=104 enc=748 dec=754 
+ad=80 msg=112 enc=783 dec=789 
+ad=80 msg=120 enc=817 dec=823 
+ad=80 msg=128 enc=852 dec=858 
+ad=88 msg=0 enc=324 dec=324 
+ad=88 msg=8 enc=359 dec=358 
+ad=88 msg=16 enc=392 dec=393 
+ad=88 msg=24 enc=427 dec=429 
+ad=88 msg=32 enc=461 dec=463 
+ad=88 msg=40 enc=496 dec=498 
+ad=88 msg=48 enc=529 dec=533 
+ad=88 msg=56 enc=564 dec=567 
+ad=88 msg=64 enc=598 dec=602 
+ad=88 msg=72 enc=633 dec=637 
+ad=88 msg=80 enc=668 dec=672 
+ad=88 msg=88 enc=701 dec=707 
+ad=88 msg=96 enc=735 dec=741 
+ad=88 msg=104 enc=771 dec=776 
+ad=88 msg=112 enc=805 dec=811 
+ad=88 msg=120 enc=838 dec=846 
+ad=88 msg=128 enc=873 dec=880 
+ad=96 msg=0 enc=346 dec=345 
+ad=96 msg=8 enc=379 dec=381 
+ad=96 msg=16 enc=414 dec=415 
+ad=96 msg=24 enc=449 dec=450 
+ad=96 msg=32 enc=484 dec=484 
+ad=96 msg=40 enc=516 dec=521 
+ad=96 msg=48 enc=551 dec=554 
+ad=96 msg=56 enc=586 dec=589 
+ad=96 msg=64 enc=620 dec=624 
+ad=96 msg=72 enc=654 dec=658 
+ad=96 msg=80 enc=689 dec=692 
+ad=96 msg=88 enc=724 dec=727 
+ad=96 msg=96 enc=757 dec=763 
+ad=96 msg=104 enc=793 dec=798 
+ad=96 msg=112 enc=826 dec=832 
+ad=96 msg=120 enc=861 dec=867 
+ad=96 msg=128 enc=896 dec=902 
+ad=104 msg=0 enc=367 dec=367 
+ad=104 msg=8 enc=402 dec=403 
+ad=104 msg=16 enc=436 dec=438 
+ad=104 msg=24 enc=472 dec=471 
+ad=104 msg=32 enc=504 dec=508 
+ad=104 msg=40 enc=539 dec=542 
+ad=104 msg=48 enc=574 dec=576 
+ad=104 msg=56 enc=608 dec=612 
+ad=104 msg=64 enc=642 dec=646 
+ad=104 msg=72 enc=677 dec=680 
+ad=104 msg=80 enc=711 dec=715 
+ad=104 msg=88 enc=745 dec=750 
+ad=104 msg=96 enc=780 dec=784 
+ad=104 msg=104 enc=814 dec=819 
+ad=104 msg=112 enc=848 dec=854 
+ad=104 msg=120 enc=883 dec=889 
+ad=104 msg=128 enc=917 dec=924 
+ad=112 msg=0 enc=390 dec=390 
+ad=112 msg=8 enc=425 dec=423 
+ad=112 msg=16 enc=458 dec=459 
+ad=112 msg=24 enc=492 dec=493 
+ad=112 msg=32 enc=526 dec=530 
+ad=112 msg=40 enc=561 dec=564 
+ad=112 msg=48 enc=596 dec=598 
+ad=112 msg=56 enc=630 dec=634 
+ad=112 msg=64 enc=665 dec=668 
+ad=112 msg=72 enc=698 dec=703 
+ad=112 msg=80 enc=733 dec=738 
+ad=112 msg=88 enc=767 dec=772 
+ad=112 msg=96 enc=802 dec=807 
+ad=112 msg=104 enc=836 dec=842 
+ad=112 msg=112 enc=870 dec=876 
+ad=112 msg=120 enc=905 dec=911 
+ad=112 msg=128 enc=939 dec=946 
+ad=120 msg=0 enc=411 dec=412 
+ad=120 msg=8 enc=447 dec=445 
+ad=120 msg=16 enc=480 dec=481 
+ad=120 msg=24 enc=514 dec=516 
+ad=120 msg=32 enc=549 dec=552 
+ad=120 msg=40 enc=583 dec=585 
+ad=120 msg=48 enc=617 dec=620 
+ad=120 msg=56 enc=652 dec=655 
+ad=120 msg=64 enc=686 dec=690 
+ad=120 msg=72 enc=720 dec=725 
+ad=120 msg=80 enc=754 dec=759 
+ad=120 msg=88 enc=789 dec=794 
+ad=120 msg=96 enc=824 dec=829 
+ad=120 msg=104 enc=858 dec=864 
+ad=120 msg=112 enc=892 dec=898 
+ad=120 msg=120 enc=927 dec=933 
+ad=120 msg=128 enc=961 dec=967 
+ad=128 msg=0 enc=433 dec=434 
+ad=128 msg=8 enc=469 dec=467 
+ad=128 msg=16 enc=501 dec=504 
+ad=128 msg=24 enc=536 dec=538 
+ad=128 msg=32 enc=571 dec=572 
+ad=128 msg=40 enc=606 dec=608 
+ad=128 msg=48 enc=639 dec=642 
+ad=128 msg=56 enc=674 dec=677 
+ad=128 msg=64 enc=708 dec=712 
+ad=128 msg=72 enc=742 dec=747 
+ad=128 msg=80 enc=776 dec=781 
+ad=128 msg=88 enc=811 dec=815 
+ad=128 msg=96 enc=846 dec=850 
+ad=128 msg=104 enc=880 dec=885 
+ad=128 msg=112 enc=914 dec=920 
+ad=128 msg=120 enc=949 dec=955 
+ad=128 msg=128 enc=983 dec=989 
+# AEAD Benchmarking
+platform = dueUSB
+config = O1
+build time = Dec 23 2023 - 22:03:24
+variant = tinyjambu128v2
+impl = ref
+timer = micros
+
+ad=0 msg=256 enc=1182 dec=1195 
+ad=0 msg=384 enc=1731 dec=1751 
+ad=0 msg=512 enc=2281 dec=2305 
+# AEAD Benchmarking
+platform = dueUSB
+config = O1
+build time = Dec 23 2023 - 22:03:24
+variant = tinyjambu128v2
+impl = ref
+timer = micros
+
+ad=256 msg=0 enc=784 dec=785 
+ad=384 msg=0 enc=1135 dec=1135 
+ad=512 msg=0 enc=1487 dec=1484 
+# lwc exit 0

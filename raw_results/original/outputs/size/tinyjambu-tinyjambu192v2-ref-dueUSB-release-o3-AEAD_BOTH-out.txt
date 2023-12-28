@@ -1,0 +1,87 @@
+Processing dueUSB-release-o3 (build_type: release; platform: atmelsam; build_unflags: -Os; build_flags: -O3 "-DLWC_CONFIG=\"O3\"" "-DLWC_PLATFORM_DUEUSB"; framework: arduino; board: dueusb; board_build.mcu: at91sam3x8e)
+--------------------------------------------------------------------------------
+CONFIGURATION: https://docs.platformio.org/page/boards/atmelsam/dueusb.html
+PLATFORM: Atmel SAM (8.2.0) > Arduino Due (USB Native Port)
+HARDWARE: AT91SAM3X8E 84MHz, 96KB RAM, 512KB Flash
+DEBUG: Current (atmel-ice) External (atmel-ice, blackmagic, jlink, stlink)
+PACKAGES: 
+ - framework-arduino-sam @ 1.6.12 
+ - framework-cmsis @ 1.40500.0 (4.5.0) 
+ - framework-cmsis-atmel @ 1.2.2 
+ - toolchain-gccarmnoneeabi @ 1.70201.0 (7.2.1)
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 3 compatible libraries
+Scanning dependencies...
+No dependencies
+Building in release mode
+arm-none-eabi-g++ -o .pio\build\dueUSB-release-o3\src\arduino_main.cpp.o -c -fno-rtti -fno-exceptions -std=gnu++11 -fno-threadsafe-statics -O3 -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -Wall -nostdlib --param max-inline-insns-single=500 -DPLATFORMIO=60111 -D__SAM3X8E__ -DARDUINO_SAM_DUE -DLWC_CONFIG=\"O3\" -DLWC_PLATFORM_DUEUSB -DARDUINO=10805 -DF_CPU=84000000L -DUSBCON -DUSB_VID=0x2341 -DUSB_PID=0x003E "-DUSB_PRODUCT=\"Arduino Due\"" -DUSB_MANUFACTURER=\"Arduino\" -DARDUINO_ARCH_SAM -Iinclude -Isrc "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\cores\arduino" "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\system\libsam" "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\system\CMSIS\CMSIS\Include" "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\system\CMSIS\Device\ATMEL" "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\variants\arduino_due_x" src\arduino_main.cpp
+arm-none-eabi-g++ -o .pio\build\dueUSB-release-o3\src\experiment_genkat.cpp.o -c -fno-rtti -fno-exceptions -std=gnu++11 -fno-threadsafe-statics -O3 -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -Wall -nostdlib --param max-inline-insns-single=500 -DPLATFORMIO=60111 -D__SAM3X8E__ -DARDUINO_SAM_DUE -DLWC_CONFIG=\"O3\" -DLWC_PLATFORM_DUEUSB -DARDUINO=10805 -DF_CPU=84000000L -DUSBCON -DUSB_VID=0x2341 -DUSB_PID=0x003E "-DUSB_PRODUCT=\"Arduino Due\"" -DUSB_MANUFACTURER=\"Arduino\" -DARDUINO_ARCH_SAM -Iinclude -Isrc "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\cores\arduino" "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\system\libsam" "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\system\CMSIS\CMSIS\Include" "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\system\CMSIS\Device\ATMEL" "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\variants\arduino_due_x" src\experiment_genkat.cpp
+arm-none-eabi-g++ -o .pio\build\dueUSB-release-o3\src\experiment_size.cpp.o -c -fno-rtti -fno-exceptions -std=gnu++11 -fno-threadsafe-statics -O3 -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -Wall -nostdlib --param max-inline-insns-single=500 -DPLATFORMIO=60111 -D__SAM3X8E__ -DARDUINO_SAM_DUE -DLWC_CONFIG=\"O3\" -DLWC_PLATFORM_DUEUSB -DARDUINO=10805 -DF_CPU=84000000L -DUSBCON -DUSB_VID=0x2341 -DUSB_PID=0x003E "-DUSB_PRODUCT=\"Arduino Due\"" -DUSB_MANUFACTURER=\"Arduino\" -DARDUINO_ARCH_SAM -Iinclude -Isrc "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\cores\arduino" "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\system\libsam" "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\system\CMSIS\CMSIS\Include" "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\system\CMSIS\Device\ATMEL" "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\variants\arduino_due_x" src\experiment_size.cpp
+arm-none-eabi-g++ -o .pio\build\dueUSB-release-o3\src\experiment_timing.cpp.o -c -fno-rtti -fno-exceptions -std=gnu++11 -fno-threadsafe-statics -O3 -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -Wall -nostdlib --param max-inline-insns-single=500 -DPLATFORMIO=60111 -D__SAM3X8E__ -DARDUINO_SAM_DUE -DLWC_CONFIG=\"O3\" -DLWC_PLATFORM_DUEUSB -DARDUINO=10805 -DF_CPU=84000000L -DUSBCON -DUSB_VID=0x2341 -DUSB_PID=0x003E "-DUSB_PRODUCT=\"Arduino Due\"" -DUSB_MANUFACTURER=\"Arduino\" -DARDUINO_ARCH_SAM -Iinclude -Isrc "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\cores\arduino" "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\system\libsam" "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\system\CMSIS\CMSIS\Include" "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\system\CMSIS\Device\ATMEL" "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\variants\arduino_due_x" src\experiment_timing.cpp
+arm-none-eabi-g++ -o .pio\build\dueUSB-release-o3\src\experiments.cpp.o -c -fno-rtti -fno-exceptions -std=gnu++11 -fno-threadsafe-statics -O3 -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -Wall -nostdlib --param max-inline-insns-single=500 -DPLATFORMIO=60111 -D__SAM3X8E__ -DARDUINO_SAM_DUE -DLWC_CONFIG=\"O3\" -DLWC_PLATFORM_DUEUSB -DARDUINO=10805 -DF_CPU=84000000L -DUSBCON -DUSB_VID=0x2341 -DUSB_PID=0x003E "-DUSB_PRODUCT=\"Arduino Due\"" -DUSB_MANUFACTURER=\"Arduino\" -DARDUINO_ARCH_SAM -Iinclude -Isrc "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\cores\arduino" "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\system\libsam" "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\system\CMSIS\CMSIS\Include" "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\system\CMSIS\Device\ATMEL" "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\variants\arduino_due_x" src\experiments.cpp
+arm-none-eabi-gcc -o .pio\build\dueUSB-release-o3\src\iut\ref\lwc_crypto_aead.c.o -c -std=gnu11 -O3 -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -Wall -nostdlib --param max-inline-insns-single=500 -DPLATFORMIO=60111 -D__SAM3X8E__ -DARDUINO_SAM_DUE -DLWC_CONFIG=\"O3\" -DLWC_PLATFORM_DUEUSB -DARDUINO=10805 -DF_CPU=84000000L -DUSBCON -DUSB_VID=0x2341 -DUSB_PID=0x003E "-DUSB_PRODUCT=\"Arduino Due\"" -DUSB_MANUFACTURER=\"Arduino\" -DARDUINO_ARCH_SAM -Iinclude -Isrc "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\cores\arduino" "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\system\libsam" "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\system\CMSIS\CMSIS\Include" "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\system\CMSIS\Device\ATMEL" "-IC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\variants\arduino_due_x" src\iut\ref\lwc_crypto_aead.c
+arm-none-eabi-g++ -o .pio\build\dueUSB-release-o3\firmware.elf -T flash.ld -mcpu=cortex-m3 -mthumb -Wl,--gc-sections -Wl,--check-sections -Wl,--unresolved-symbols=report-all -Wl,--warn-common -Wl,--warn-section-align -Wl,--entry=Reset_Handler -u _sbrk -u link -u _close -u _fstat -u _isatty -u _lseek -u _read -u _write -u _exit -u kill -u _getpid .pio\build\dueUSB-release-o3\src\arduino_main.cpp.o .pio\build\dueUSB-release-o3\src\experiment_genkat.cpp.o .pio\build\dueUSB-release-o3\src\experiment_size.cpp.o .pio\build\dueUSB-release-o3\src\experiment_timing.cpp.o .pio\build\dueUSB-release-o3\src\experiments.cpp.o .pio\build\dueUSB-release-o3\src\iut\ref\encrypt.c.o .pio\build\dueUSB-release-o3\src\iut\ref\lwc_crypto_aead.c.o .pio\build\dueUSB-release-o3\src\utils.cpp.o -L.pio\build\dueUSB-release-o3 "-LC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\variants\arduino_due_x\linker_scripts\gcc" "-LC:\Users\saad shakeel\.platformio\packages\framework-arduino-sam\variants\arduino_due_x" -Wl,--start-group .pio\build\dueUSB-release-o3\libFrameworkArduinoVariant.a .pio\build\dueUSB-release-o3\libFrameworkArduino.a -lm -lsam_sam3x8e_gcc_rel -lgcc -Wl,--end-group
+MethodWrapper(["checkprogsize"], [".pio\build\dueUSB-release-o3\firmware.elf"])
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [          ]   2.6% (used 2576 bytes from 98304 bytes)
+Flash: [          ]   2.6% (used 13492 bytes from 524288 bytes)
+.pio\build\dueUSB-release-o3\firmware.elf  :
+
+section            size        addr
+
+.text             13492      524288
+
+.relocate          1212   537329664
+
+.bss               2576   537330876
+
+.ARM.attributes      41           0
+
+.comment            238           0
+
+.debug_frame        732           0
+
+Total             18291
+arm-none-eabi-objcopy -O binary .pio\build\dueUSB-release-o3\firmware.elf .pio\build\dueUSB-release-o3\firmware.bin
+========================= [SUCCESS] Took 2.85 seconds =========================
+
+Environment              Status    Duration
+-----------------------  --------  ------------
+mkrzero-debug            IGNORED
+mkrzero-release-os       IGNORED
+mkrzero-release-o1       IGNORED
+mkrzero-release-o2       IGNORED
+mkrzero-release-o3       IGNORED
+nano33ble-debug          IGNORED
+nano33ble-release-os     IGNORED
+nano33ble-release-o1     IGNORED
+nano33ble-release-o2     IGNORED
+nano33ble-release-o3     IGNORED
+nano_every-debug         IGNORED
+nano_every-release-os    IGNORED
+nano_every-release-o1    IGNORED
+nano_every-release-o2    IGNORED
+nano_every-release-o3    IGNORED
+uno-debug                IGNORED
+uno-release-os           IGNORED
+uno-release-o1           IGNORED
+uno-release-o2           IGNORED
+uno-release-o3           IGNORED
+nodemcuv2-release-os     IGNORED
+nodemcuv2-release-o1     IGNORED
+nodemcuv2-release-o2     IGNORED
+nodemcuv2-release-o3     IGNORED
+chipkit_mx3-release-os   IGNORED
+chipkit_mx3-release-o1   IGNORED
+chipkit_mx3-release-o2   IGNORED
+chipkit_mx3-release-o3   IGNORED
+chipkit_uc32-release-os  IGNORED
+chipkit_uc32-release-o1  IGNORED
+chipkit_uc32-release-o2  IGNORED
+chipkit_uc32-release-o3  IGNORED
+dueUSB-release-os        IGNORED
+dueUSB-release-o1        IGNORED
+dueUSB-release-o2        IGNORED
+dueUSB-release-o3        SUCCESS   00:00:02.854
+========================= 1 succeeded in 00:00:02.854 =========================
