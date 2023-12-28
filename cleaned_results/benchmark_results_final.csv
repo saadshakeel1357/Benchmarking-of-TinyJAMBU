@@ -1,0 +1,5 @@
+﻿release,size_both_time_old,size_enc_time_old,size_dec_time_old,size_both_time_new,size_enc_time_new,size_dec_time_new,size_both_ram_old,size_enc_ram_old,size_dec_ram_old,size_both_ram_new,size_enc_ram_new,size_dec_ram_new,size_both_flash_old,size_enc_flash_old,size_dec_flash_old,size_both_flash_new,size_enc_flash_new,size_dec_flash_new,kat_time_old,kat_time_new,kat_ram_old,kat_ram_new,kat_flash_old,kat_flash_new
+o1,3.774,6.520,2.984,2.848,7.087,2.889,2.6,2.6,2.6,2.6,2.6,2.6,2.4,2.4,2.4,2.4,2.4,2.4,2.912,2.946,2.6,2.6,2.8,2.8
+o2,3.359,6.650,2.730,2.907,7.265,2.931,2.6,2.6,2.6,2.6,2.6,2.6,2.4,2.4,2.4,2.4,2.4,2.4,2.971,2.970,2.6,2.6,2.7,2.7
+o3,2.972,6.868,2.726,2.872,7.537,3.078,2.6,2.6,2.6,2.6,2.6,2.6,2.5,2.5,2.5,2.4,2.4,2.4,3.563,2.913,2.6,2.6,3.0,2.9
+os,2.955,7.264,2.960,2.893,8.572,2.930,2.6,2.6,2.6,2.6,2.6,2.6,2.2,2.2,2.2,2.2,2.2,2.2,2.955,3.264,2.6,2.6,2.5,2.5
