@@ -82,7 +82,7 @@ def click():
     It triggers the plot generation based on the selected dropdown options.
     """
     # Display error if nothing selected
-    if options1.get() == "Type of Experiment" or options2.get() == "Dependant variables" or options2.get() == "Independant variables":
+    if options1.get() == "Type of Experiment" or options2.get() == "Dependent variables":
         messagebox.showwarning("Message", "Please properly specify the visualisation desired ")
     else:
         if options1.get() == "Code Size":
