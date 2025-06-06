@@ -21,3 +21,4 @@ Data extracted includes RAM usage, Flash memory usage, execution time, encryptio
 A Python script, adapted from the author's semester 1 Bachelor Semester Project (BSP), is used to develop a visualization tool. The script utilizes Tkinter to create a graphical interface for visualizing benchmarking results stored in CSV files. This tool facilitates the comparison of performance metrics between different optimization indicators.
 
 
+The primary goal is to assess the impact of modifications on algorithm behavior. The research project associated with this repository provides valuable insights into the dynamic performance of cryptographic algorithms in resource-constrained environments.
